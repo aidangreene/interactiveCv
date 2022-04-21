@@ -13,20 +13,15 @@
 		<link href="print.css" media="print" rel="stylesheet">
 		<!--<link href="print.css" rel="stylesheet">-->
 		<link rel="icon" href="Turtle Open.png" type="image/png">
-		<title>Interactive CV || Matthew Mc Allister</title>
+		<title>Interactive CV || aidan greene</title>
 	</head>
 	<body>
 		<div id="body" class="jquery-ripples">
 			<div id="semi">
 				<div id="howToBG">
 					<div id="howTo">
-						<h1>Matthew Mc Allister</h1>
 						<h2>Interactive CV</h2>
 						<span class="avatar"></span>
-						<p>Welcome to my interactive CV, Inspired by the works of <a target="_blank" href="http://www.rleonardi.com/interactive-resume/">Robby Leonardi</a>, I have designed my own Interactive CV.
-						You will be playing as a turtle swimming around in the ocean while you are continuosly persued by a manta stingray. Move your mouse or click on the screen to swim. Swimming into a life saver ring will teleport you to the beach, where you can view the relevant information about me<br></p>
-						<p>Click on the print icon at any time, to view the print friendly version </p>
-						<p>Have Fun</p>
 						<button id="startGame" onclick="startGame();">Click to Begin</button>
 					</div>
 				</div>
@@ -34,12 +29,10 @@
 				<div id="printAvatar" class="avatar"></div>
 				<div id="mobileTitle">
 					<h1>Interactive CV</h1>
-					<h2>Matthew Mc Allister</h2>
 					<p>Please visit this site on a computer or rotate your screen for the full experience</p>
 				</div>
 				<div id="printTitle">
 					<h1>Interactive CV<br>(print version)</h1>
-					<h2>Matthew Mc Allister</h2>
 					<p>Please visit <a target="_blank" href="https://web.traffickids.co.za/github/interactiveCV">https://web.traffickids.co.za/github/interactiveCV</a> on a computer for the full experience</p>
 				</div>
 				<div onclick="window.print();">
@@ -77,16 +70,6 @@
 				<div class="detail" id="contactInfo">
 					<span class="returnToSea" onmouseover="hideInfo('contactInfo');">Back to Sea</span>
 					<div class="detailContent">
-						<h1>My Contact Information</h1>
-						<h2>I would love to hear from you</h2>
-						<ul class="colList">
-							<li>Full Name: Matthew Jonathan Mc Allister</li>
-							<li>ID Number: 9504065035083</li>
-							<li>email Address: <a target="_blank" href="mailto:matatacmca@gmail.com">matatacmca@gmail.com</a></li>
-							<li>Mobile Phone: (+27) 071 158 3596</li>
-							<li>Facebook: <a target="_blank" href="https://facebook.com/bbuusshhiiee">https://facebook.com/bbuusshhiiee</a></li>
-							<li>Github: <a target="_blank" href="https://github.com/matatacmca">https://github.com/matatacmca</a></li>
-						</ul>
 					</div>
 					<div class="detailScroller"></div>
 				</div>
@@ -132,12 +115,9 @@
 							<li>Mac OS: <span style="color:yellow;">&starf;</span></li>
 						</ul>
 						<div class="iframedContent">
-							<h2>My Personality (based on an assessment at plum.io)</h2>
-							<!--<a href="https://app.plum.io/profile/f96dea596e6363f2e54e353c8c9c86a0b325391e" target="_blank">View my Profile directly from Plum.IO</a>-->
 							<iframe style="width:100%;height:75vh" src="plum.html"></iframe>
 						</div>
 						<div class="iframedReplacer">
-							<h2>My Personality (based on an assessment at plum.io)</h2>
 							<ul>
 								<li>Task Management
 									<p><strong>Your Task Management is in the top 5% of the workforce.</strong> You have an extraordinary proficiency for setting goals, monitoring progress, and taking initiative to improve your work.
@@ -146,27 +126,9 @@
 										You excel at learning what is important to get the job done right and avoiding costly mistakes. You are also excellent at understanding new procedures and explaining them to others.
 									</p>
 								</li>
-								<li>Decision Making
-									<p>
-										<strong>Your Decision Making is in the top 15% of the workforce.</strong> You have a strong proficiency for making high-quality decisions based on limited information.
-										You have the ability for being thorough, deliberate and timely, and having attention to detail.
-										You have a disposition for gathering and critically evaluating relevant information, recognizing solutions and using facts, logic and experience to buttress your opinions.
-										You have a strong ability for expressing your opinions and beliefs and a tendency for exerting dominance.
-									</p>
-								</li>
-								<li>Leadership
-									<p>
-										<strong>Your Leadership is in the top 15% of the workforce.</strong> You have a strong proficiency for taking charge and motivating group members toward common goals.
-										You have an extraordinary ability to establish short and long term goals, specify the strategies and actions to achieve them, and have the perseverance to overcome obstacles and failures to attain objectives.
-										You have a strong ability to express your beliefs and opinions even when they are contrary to those of others, motivate and inspire others to extend themselves to attain goals, and exercise your authority.
-										You can keep others informed despite pressing deadlines, remain tactful in stressful situations, and compromise to achieve organizational goals.
-										You excel at collecting and analyzing the information necessary for providing effective direction to groups of people. You are also very good at developing strategic plans and explaining to others how to accomplish those plans.
-										You generally understand what to say to motivate people to follow your direction.
-										You can recognize and deal positively with obstacles and failures, share responsibility for team direction and performance while establishing and maintaining effective workplace relations.
-									</p>
-								</li>
+
 							</ul>
-							<p>You can view this assesment online at <a href="https://app.plum.io/profile/f96dea596e6363f2e54e353c8c9c86a0b325391e" target="_blank">https://app.plum.io/profile/f96dea596e6363f2e54e353c8c9c86a0b325391e</a></p>
+							
 						</div>
 					</div>
 					<div class="detailScroller"></div>
@@ -207,150 +169,6 @@
 								</p>
 								<ul>
 									<li><strong>Neels Rabe</strong> - Software Development Manager (083 730 5470)</li>
-								</ul>
-								<p></p>
-							</li>
-							<li>
-								<strong>February 2019 - September 2019: Secure Banking Technologies</strong><br>
-								<strong>Role: Head Software Developer for Research and Development</strong>
-								<p>
-									<strong>Responsibilities:</strong>
-								</p>
-								<ul>
-									<li>
-										Design, develop and implement a production and field management system consisting of the following
-										<ul>
-											<li>Database Backend</li>
-											<li>Web-Based User Interface</li>
-											<li>Android Based Mobile Application</li>
-										</ul>
-									</li>
-									<li>
-										Write software for electronic security systems using micro-controllers and other hardware peripherals
-									</li>
-								</ul>
-								<p>
-									<strong>References:</strong>
-								</p>
-								<ul>
-									<li><strong>Kevin Whelan</strong> - Product Engineer (076 115 5171)</li>
-									<li><strong>Bradley Whelan</strong> - Product Engineer (076 629 2094)</li>
-								</ul>
-								<p></p>
-							</li>
-							<li>
-								<strong>Mid May 2018 - January 2019: Integrated Core Group</strong><br>
-								<strong>Role: Software Engineer</strong>
-								<p>
-									<strong>Responsibilities:</strong>
-								</p>
-								<ul>
-									<li>Design, develop and implement an alarm monitoring system and build continuous upgrades and features as per clients requirements. <span class="noPrint">Click <a href="javascript:" onclick="displayCoreMonitor();">here</a> for more information</span></li>
-								</ul>
-								<script>
-									function displayCoreMonitor()
-									{
-										hideInfo('workExperience');
-										displayInfo('projects');
-										window.location.hash='COREmonitor';
-										window.location.hash='';
-									}
-								</script>
-								<p>
-									<strong>References:</strong>
-								</p>
-								<ul>
-									<li><strong>Kiran Ramharakh</strong> - Financial Director (079 622 8911)</li>
-									<li><strong>Brendon Whelan</strong> - Managing Director (073 345 5442)</li>
-								</ul>
-								<p></p>
-							</li>
-							<li>
-								<strong>January 2018 - Mid May 2018: Integrated Core Group</strong><br>
-								<strong>Role: Service Delivery Manager</strong>
-								<p>
-									<strong>Responsibilities:</strong>
-								</p>
-								<ul>
-									<li>Designing analytic reports that integrate with the company's Job Management System in order to better plan and gauge performance of selected staff groups</li>
-									<li>Designing operational workflows in order to better streamline the operational process of the company to ensure exceptional service delivery</li>
-									<li>Work through any service delivery issues and implement a process to prevent issues from recurring in the future</li>
-									<li>Occasionally performed duties of a <a href="#SnrTechManager">Senior Technical Manager</a></li>
-									<li>Regularly performed duties of an <a href="#ITAdministrator">IT Administrator</a></li>
-								</ul>
-								<p>
-									<strong>References:</strong>
-								</p>
-								<ul>
-									<li><strong>Kiran Ramharakh</strong> - Financial Director (079 622 8911)</li>
-									<li><strong>Brendon Whelan</strong> - Managing Director (073 345 5442)</li>
-								</ul>
-								<p></p>
-							</li>
-							<li>
-								<strong>April 2016 - December 2017: Integrated Core Group</strong><br>
-								<strong id="SnrTechManager">Role: Senior Technical Manager</strong>
-								<p>
-									<strong>Responsibilities:</strong>
-								</p>
-								<ul>
-									<li>Installation, Maintenance and Repairs of Generators, UPS's, Sprinkler Pumps, Alarm Systems and other related equipment</li>
-									<li>Installed GSM Monitoring Units on select sites for cold rooms, portable chest freezers, and generators</li>
-									<li>Configured an off-site alarm monitoring control room for a client</li>
-									<li>Designed two Customised Reports for a client that integrates with their Job Management System</li>
-									<li>Regularly performed duties of an <a href="#ITAdministrator">IT Administrator</a></li>
-								</ul>
-								<p>
-									<strong>References:</strong>
-								</p>
-								<ul>
-									<li><strong>Kiran Ramharakh</strong> - Financial Director (079 622 8911)</li>
-									<li><strong>Brendon Whelan</strong> - Managing Director (073 345 5442)</li>
-								</ul>
-								<p></p>
-							</li>
-							<li>
-								<strong>April 2015 - March 2016: Integrated Core Group</strong><br>
-								<strong id="ITAdministrator">Dual Role: Technical Manager & IT Administrator</strong>
-								<p>
-									<strong>Responsibilities:</strong>
-								</p>
-								<ul>
-									<li>Configuration of company IT infrastructure including Networking, Printers, Server Configuration, etc</li>
-									<li>Configuration of LAMP server</li>
-									<li>Routine Maintenance of web server (WordPress)</li>
-									<li>Implemented & Trained two simPRO (Job Management System) builds for clients</li>
-									<li>Implemented & Trained simPRO (Job Management System) for internal Staff</li>
-									<li>Implemented $ Trained Gsuite for internal Staff</li>
-									<li>Low Level integration of helpdesk to Job Management System (simPRO)</li>
-									<li>Developed a Call Centre Dashboard that links with the Job Management System (simPRO)</li>
-									<li>Installation, Maintenance and Repairs of Generators, UPS's, Sprinkler Pumps, Alarm Systems and other related equipment</li>
-									<li>Installed GSM Monitoring Units on select sites for cold rooms, portable chest freezers, and generators</li>
-								</ul>
-								<p>
-									<strong>References:</strong>
-								</p>
-								<ul>
-									<li><strong>Kiran Ramharakh</strong> - Financial Director (079 622 8911)</li>
-									<li><strong>Brendon Whelan</strong> - Managing Director (073 345 5442)</li>
-								</ul>
-								<p></p>
-							</li>
-							<li>
-								<strong>June 2014 - March 2015: Robertson Ventilation Industries</strong><br>
-								<strong>Role: Due Diligence Technician</strong>
-								<p>
-									<strong>Responsibilities:</strong>
-								</p>
-								<ul>
-									<li>Conduct site surveys on newly sold maintenance contracts and ensure that all relevant equipment was added to the asset register on the Job Management system</li>
-									<li>Assisted in an IT infrastructure upgrade from Desktop to Terminal Services which subsequently involved me in IT support</li>
-								</ul>
-								<p>
-									<strong>References:</strong>
-								</p>
-								<ul>
-									<li><strong>Brendon Whelan</strong> - Maintenence Sales Manager (073 345 5442)</li>
 								</ul>
 								<p></p>
 							</li>
@@ -449,14 +267,14 @@
 						</p>
 						<ol style="text-align:left">
 							<li>
-								<a target="_blank" href="https://github.com/matatacmca">Github</a><br>
+								<a target="_blank" href="https://github.com/aidangreene">Github</a><br>
 								Why continuously update dynamic content? ajax & github API is used to update the below repositories<br>
 								<span class="noPrint">(hover or click each item for the project description)</span>
 								<div id="githubRepos"></div>
 								<script>
 var result = "";
 $.ajax({
-	url:"https://api.github.com/users/matatacmca/repos",
+	url:"https://api.github.com/users/aidangreene/repos",
 	async: false,
 	success:function(data) {
 		handleRepos(data); 
